@@ -5,12 +5,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 header{
     background-color: cadetblue;
-    font-size: 24px;
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 20px 0 0 20px;
+    margin-bottom:10px;
+    height: 100px;
 }
+
+
 body{
 background-color: beige;
 }
@@ -22,11 +29,51 @@ background-color: beige;
 }
 
 img{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    margin: 20px;
+    margin: 5px;
     height: 350px;
     width: 350px;
+}
+
+.meal-type {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 50px;
+    line-height: 2;
+}
+
+.container {
+    display: flex;
+    /* align-items: flex-start; */
+    gap: 20px;
+
+    border: 2px solid #cccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.description{
+    flex: 1;
+}
+
+.ingredients {
+border: 2px solid #cccc;
+padding: 20px;
+border-radius: 10px;
+box-shadow: cadetblue;
+background-color: azure;
+}
+
+.prep-steps{
+border: 2px solid #cccc;
+padding: 20px;
+border-radius: 10px;
+box-shadow: cadetblue;
+background-color: azure;
 }
 
